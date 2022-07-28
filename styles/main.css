@@ -1,3 +1,8 @@
+/* ===================
+ * Author: Kazi Ela
+ * Date: 28 July 2022
+======================*/
+
 html,
 body,
 p,
@@ -14,9 +19,10 @@ span,
 input,
 button {
     padding: 0;
-    border: 0;
-    outline: 0;
     margin: 0;
+    border: 0;
+    /* outline: 0; */
+    font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -30,3 +36,151 @@ img {
 hr {
     border-top: 1px solid #959393;
 }
+
+/* ==============================
+        NAVBAR STYLES start
+================================ */
+
+.navbar-brand{
+    font-size: 40px;
+    font-weight: 600;
+    color: #4A4A4A;
+}
+
+.nav-item a{
+    /* color: red; */
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.register{
+    color: #289BDE;
+    border: 1px solid #289BDE;
+    border-radius: 5px;
+}
+
+.register:hover{
+    color: #FFFFFF;
+    background-color: #289BDE;
+}
+
+
+/* 
+.nav-container{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* ==============================
+        NAVBAR STYLES end
+================================ */
+
+
+
+/* ==============================
+        BANNER STYLES start
+================================ */
+.carousel-inner{
+    height: 700px;
+}
+
+.dark-over:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: black;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.carousel-caption {
+    /* background-color: #00F; */
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 65px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.get-started{
+    background-color: #289BDE;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 30px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* ==============================
+        BANNER STYLES end
+================================ */
+
+/* ==============================
+        COURSES STYLES start
+================================ */
+
+.course-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.course-welcome {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* width: 35%; */
+}
+
+.course-welcome h3{
+    color: #1D1D1D;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    width: 50%;
+}
+
+.course-welcome p{
+    color: #777777;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    width: 50%;
+}
+
+/* .course-welcome-banner {
+    background-color: #de2849;
+    width: 40%;
+} */
+
+.course-grid {
+    background-color: chartreuse;
+}
+
+.course-view-all {
+    background-color: rgb(0, 34, 255);
+}
+
+/* ==============================
+        COURSES STYLES end
+================================ */

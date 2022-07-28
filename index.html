@@ -4,6 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Institute of Science & Technology</title>
+    
+    <!-- ==========================FONT========================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet" />
+
+
     <!-- ============BOOTSTRAP============= -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
 
@@ -12,17 +19,107 @@
   </head>
   <body>
     <main>
+        <!-- ==============TOP NAVBAR START====================== -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container nav-container">
+                <a class="navbar-brand" href="#">Tech Institute</a>
+                                
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#courses">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Deals</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Success</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Register</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline-info register">Register</button>
+                    
+                </div>
+            </div>
+        </nav>
+        <!-- ==============TOP NAVBAR END====================== -->
+
+
         <header>
-            <div class="top-bar">
+            <div class="container slider-content">
+                
+
+                <!-- =====================SLIDER START================== -->
+
+
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <!-- <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div> -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item dark-over active">
+                        <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Get Started Digital Learning</h5>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            <button class="get-started">Get Started</button>
+                        </div>
+                        </div>
+                        <div class="carousel-item dark-over">
+                        <img src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Discover Strategies For Success</h5>
+                            <p>Communication, project planning and persistence are keys to ensuring that the course design process is productive and completed on time.</p>
+                            <button class="get-started">Get Started</button>
+                        </div>
+                        </div>
+                        <div class="carousel-item dark-over">
+                        <img src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Focus Continuous Improvement</h5>
+                            <p>a set of standards that serve as a national benchmark for online course design, and the principles of universal design for learning.</p>
+                            <button class="get-started">Get Started</button>
+                        </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+
+                <!-- =====================SLIDER END================== -->
 
             </div>
         </header>
 
-        <section class="main-content">
-            <section class="banner">
-
-            </section>
-
+        <section class="container course-container">
+            <div class="course-welcome">
+                <h3>Discover Our Popular Courses</h3>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                
+            </div>
+            <div class="course-grid"></div>
+            <div class="course-view-all"></div>
         </section>
 
         <footer>
